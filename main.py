@@ -72,3 +72,40 @@ def give_city():
 @app.route("/favorite_song")
 def give_favorite_song():
     return "<p> My Way </p>"
+
+@app.route("/color")
+def give_color():
+    return "<p> Black </p>"
+
+@app.route("/computer")
+def give_computer():
+    return "<p> MacBook Pro </p>"
+
+@app.route("/phone")
+def give_phone():
+    return "<p> Samsung M53 </p>"
+
+@app.route("/job")
+def give_job():
+    return "<p> Create and Sale </p>"
+
+@app.route("/college")
+def give_college():
+    return "<p> UEA </p>"
+
+@app.route("/degree")
+def give_degree():
+    return "<p> Computer Engineering </p>"
+
+@app.route("/investor")
+def give_investor():
+    return "<p> Bill ALckman </p>"
+
+@app.route("/entrepreneur")
+def give_entrepreneur():
+    return "<p> Steve Jobs </p>"
+
+@app.route("/philosopher")
+def give_philosopher():
+    return "<p> Santo Agostinho </p>"
+
