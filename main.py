@@ -28,3 +28,20 @@ def give_podcast():
 @app.route("/movie")
 def give_movie():
     return "<p>  Interstellar </p>"
+
+@app.route("/series")
+def give_series():
+    return "<p> Peaky Blinders </p>"
+
+@app.route("/game")
+def give_game():
+    return "<p> Forza Horizon 4 </p>"
+
+@app.route("/food")
+def give_food():
+    return "<p> Chateaubriand </p>"
+
+@app.route("/vacations")
+def give_vacations():
+    return "<p> Fortaleza Belem Curitiba São Paulo BC Floripa Gramado Porto Alegre </p>"
+
