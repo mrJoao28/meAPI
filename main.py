@@ -45,3 +45,26 @@ def give_food():
 def give_vacations():
     return "<p> Fortaleza Belem Curitiba São Paulo BC Floripa Gramado Porto Alegre </p>"
 
+@app.route("/girlfriend")
+def give_girlfriend():
+    return "<p> No </p>"
+
+@app.route("/dream")
+def give_dream():
+    return "<p> almost 1 billion dollars on assets </p>"
+
+@app.route("/airplane")
+def give_airplane():
+    return "<p> Airbus A380 </p>"
+
+@app.route("/dream_car")
+def give_dream_car():
+    return "<p> Bugatti Tourbillon </p>"
+
+@app.route("/country")
+def give_country():
+    return "<p> Brazil </p>"
+
+@app.route("/city")
+def give_city():
+    return "<p> Manaus </p>"
