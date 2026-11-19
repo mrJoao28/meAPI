@@ -68,3 +68,7 @@ def give_country():
 @app.route("/city")
 def give_city():
     return "<p> Manaus </p>"
+
+@app.route("/favorite_song")
+def give_favorite_song():
+    return "<p> My Way </p>"
